@@ -1,0 +1,91 @@
+/******************************** TAG SELECTOR ******************************/
+a {
+  color: #45b29a;
+  font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  color: #e4f0f0;
+}
+body {
+  font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+p {
+  color: #40514e;
+}
+/*Usado para alterar a cor do texto h3 */
+
+h1 {
+  font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #45b29a;
+}
+
+h3 {
+  font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #45b29a;
+}
+
+hr {
+  border-style: none;
+  background-color: white;
+  height: 2px;
+
+  /*Usado para deixar a borda apenas como pontos
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: grey;
+    width: 30px;
+    */
+}
+
+/*Usado para que a largura do que foi escrito seja de, no máximo, 70% da tela */
+li {
+  max-width: 70%;
+  line-height: 1.5;
+}
+
+ul {
+  max-width: 70%;
+}
+tr {
+  max-width: 50%;
+}
+/******************************** CLASS SELECTOR ******************************/
+.bottom {
+  max-width: 50%;
+  text-align: center;
+}
+.footer1 {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #e0ebe8;
+}
+
+.footer2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #86c8bc;
+}
+
+.title {
+  color: #45b29a;
+}
+
+/******************************** ID SELECTOR ******************************/
+
+#contato {
+  color: #349685;
+  text-align: center;
+
+}
